@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background: hsl(210, 36%, 96%);
+  font-family: "opensans", sans-serif;
+}
+.container {
+  height: 100vh;
+}
+.title {
+  display: flex;
+  width: 100%;
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+}
+.title h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: capitalize;
+  color: #c59d5f;
+}
