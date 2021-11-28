@@ -35,7 +35,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-
   margin: 0 auto;
   margin-top: 15vh;
 }
@@ -66,8 +65,7 @@ body {
 .question-title span:hover {
   transform: rotate(90deg);
 }
-.question-title span:active {
-}
+
 .question-title span i {
   color: #c59d5f;
 }
