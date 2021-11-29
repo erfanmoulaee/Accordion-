@@ -45,6 +45,7 @@ body {
   padding: 1.5rem 1.5rem 0 1.5rem;
   margin-bottom: 2rem;
 }
+
 .question-title {
   display: flex;
   justify-content: space-between;
@@ -70,15 +71,25 @@ body {
   color: #c59d5f;
 }
 .question-text {
-  padding: 1rem 0 1.5rem 0;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
-  display: none;
+  height: 0;
+  overflow: hidden;
 }
-.show-text {
-  display: block;
+.question.active .question-text {
+  height: auto;
+  padding: 1rem 0 1.5rem 0;
 }
 .question-text p {
   color: hsl(210, 22%, 49%);
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
+}
+#minus-icon {
+  display: none;
+}
+.question.active #minus-icon {
+  display: block;
+}
+.question.active #plus-icon {
+  display: none;
 }
